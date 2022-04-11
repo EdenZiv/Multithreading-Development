@@ -13,7 +13,7 @@ import java.util.concurrent.TimeoutException;
  */
 public class Future<T> {
 	private boolean isDone;
-    private T result;
+	private T result;
 	
 	/**
 	 * This should be the the only public constructor in this class.
